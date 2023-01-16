@@ -1,0 +1,87 @@
+.Onboarding-container{
+    display: flex;
+}
+.h{
+    flex-direction: row;
+    /* margin-left: 1000px; */
+    margin-top: 30px;
+}
+.h .h-icon i {
+    color: black;
+    /* padding: 5px; */
+    margin-left: 100px;
+    margin-top: 40px;
+    /* padding-left: 0px; */
+  }
+  .h .h-icon i:hover {
+    transform: scale(1.5);
+  }
+.Title {
+    margin-left: -80%;
+    margin-top: 80%;
+    flex-direction: row;
+}
+.Title h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.highlighted-name{
+    color: #FFC000;
+}
+.Title p{
+    color: #555;
+    line-height: 22px;
+}
+.Home-btn{
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration:none;
+    color: aliceblue;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 7px;
+    
+}
+.Home-btn:hover{
+    color:oldlace
+}
+.Home-btn:focus{
+    box-shadow: none;
+}
+.Images{
+    width: 45%;
+    height: 80%;
+    position:absolute ;
+    bottom: 0;
+    right: 150px;
+}
+.Images .Shape{
+    margin-bottom: -30px;
+    /* width: 550px; */
+}
+.Images .pic{
+    padding-right: 50px;
+    width: 630px;
+    height: 800px;
+    margin-bottom:-170px;
+}
+.Images img{
+    height: 100%;
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s, ;
+
+}
+.Images:hover .Shape{
+    bottom: 30px;
+    /* left:450px */
+}
+.Images:hover .pic{
+    left: 68%;
+}
+    

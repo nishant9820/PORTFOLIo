@@ -1,0 +1,6 @@
+.Second-Container{
+    display: flex;
+    position:absolute;
+    overflow:hidden;
+    flex-direction: column;
+}

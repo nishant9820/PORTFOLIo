@@ -1,0 +1,124 @@
+
+.email_container{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: "20%";
+    /* margin-left: -30px; */
+  }
+  .inner_move{
+    margin-bottom: "20%";
+  }
+  /* .inner_move {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    height: 520px;
+    margin-left: 110px;
+  } */
+  .inner_bar {
+    max-width: 1100px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0 0 20px -2px #1f2235;
+    border-radius: 22px;
+    margin-bottom: "20%";
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2235;
+  }
+  .aolz{
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .aolz .aolz-icon i {
+    color: white;
+    padding: 8px;
+    /* padding-left: 20px; */
+    /* margin-left: 10px; */
+  }
+  .aolz .aolz-icon i:hover {
+    transform: scale(1.5);
+  }
+  .back-form {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px auto 0;
+}
+.back-form .img-back {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.central-form  {
+    width: 720px;
+    box-shadow: 0 0 2px 1px #fff;
+    display: flex;
+    color: #111;
+    padding: 1px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -152px;
+    margin-left: -200px;
+    opacity: .9;
+    background-color: #fff;
+    box-shadow: 0 0 20px -2px #1f2235;
+    border-radius: 12px;}
+   .form label {
+        margin-bottom: 5px;
+        margin-left: 30px;
+        color: #111;
+        letter-spacing: .2rem;
+        cursor: default;
+        box-sizing: border-box;
+        outline: none;
+        
+   }
+   label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+
+}
+form input, textarea {
+    width: 95%;
+    border: 2px solid transparent;
+    outline: none;
+    background-color: hsla(0,0%,90.2%,.6);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+button, input {
+    overflow: visible;
+}
+.fa-send:before, .fa-paper-plane:before {
+    content: "\f1d8";
+}
+
+.back-form .img-back img {
+    width: 100%;
+    opacity: .5;
+}
+.imagee {
+    vertical-align: middle;
+    border-style: none;
+    width:min-content;
+}
+form p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ff5823;
+    letter-spacing: .1rem;
+    font-family: "Poppins Bold";
+}
+.img-back h4 {
+    letter-spacing: .3rem;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    opacity: .5;
+}
